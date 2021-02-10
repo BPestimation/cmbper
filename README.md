@@ -27,10 +27,12 @@ accurately represent uncertainty in prediction.
 ## Requirements
 
 - Python 3.7.0
-- PyTorch 1.4.0
-- tensorboard 2.1.0
+- numpy 1.19.2
+- PyTorch 1.7.1
+- tensorboardX 2.1
+- matplotlib 3.3.4
+- sklearn
 - h5py 2.10.0
-- 
 
 
 ## Pre-processed data download
