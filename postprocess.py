@@ -191,8 +191,6 @@ if __name__ == "__main__":
         train(epoch, writer, log_train, args)
         with torch.no_grad():
             loss_val, MAE_val = validate(epoch, writer, log_valid,args)
-        save_checkpoint(epoch, global_step, model, optimizer, save_dir, "{}.pth".format(global_step))
-        print('Model Saved! - [{}.pth]'.format(global_step))
         save_checkpoint(epoch, global_step, model, optimizer, save_dir, "latest_model.pth")
         print('Model Saved! - [latest_model.pth]')
         if loss_val < loss_best:
