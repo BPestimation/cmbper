@@ -124,7 +124,7 @@ Ex) To classify hypertension using Model 6, command:
 
 #### (Optional) Data Preparation
 
-Click [here](https://drive.google.com/file/d/1GtsQgPP_gEdeTJHws_O9zL8BviUBWfEO/view) to download to well-distributed BP signals 50mmHg and 200mmHg provided by the authors of [PPG2ABP](https://arxiv.org/abs/2005.01669).
+Click [here](https://drive.google.com/file/d/1GtsQgPP_gEdeTJHws_O9zL8BviUBWfEO/view) or [here](https://drive.google.com/file/d/1g7wP3dNuzIeI1pJEjL1PrwPz-OonGCng/view?usp=sharing) to download to well-distributed BP signals 50mmHg and 200mmHg provided by the authors of [PPG2ABP](https://arxiv.org/abs/2005.01669).
 
 Then, the pre-processed data used in our experiment can be obtained by executing `data_handling.py` as follows:
 
